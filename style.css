@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color:rgb(45, 6, 82) ;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.connexion{
+    text-align: center;
+    margin: 30px;
+
+}
+.connexion1{
+    color: green;
+}
+.connexion2{
+    color: rgb(136, 124, 110);
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   
+    
+}
+.vert{
+    color: green;
+}
+.orange{
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0px solid white;
+    
+}
+.blok{
+    padding: 15px;
+    background-color:white;
+    border: 1px solid rgb(226, 222, 222);
+    border-radius: 35px;
+     margin: 30px;
+
+
+
+}
+.interieur{
+     padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(164, 163, 161);
+
+}
+footer{
+    text-align: center;
+    
+}
+.nom{
+    color: green;
+}
+.non{
+    color: rgb(153, 151, 151);
+}
+
+
+
+
+
+
+@media screen and (width:800px){
+    .blok{
+    font-size: 8vh;
+} 
+}
+
